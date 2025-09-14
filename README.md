@@ -13,7 +13,7 @@ The Astrophysical Journal, 939:3.
 
 Binary stars are known to affect the dynamical evolution of stellar systems and can inflate the observed velocity dispersion of dwarf spheroidal (dSph) and ultra-faint dwarf (UFD) galaxies. This, in turn, may lead to a significant overestimation of their dynamical masses, with important implications for dark matter studies.
 
-The codes provided here implement parametric models of dSph and UFD galaxies, focusing on the role of unresolved binary stars. For simplicity, only the random pairing method for binary mass assignment is included (the alternative q-distribution method is not implemented in this version).
+The codes provided here implement parametric models of dSph and UFD galaxies, focusing on the role of unresolved binary stars. For simplicity, only the random pairing method for binary mass assignment is included (the alternative q-distribution method is not implemented in this version). Each code block is preceded by a theoretical explanation, including the relevant formulas, to clarify its purpose and scientific background.
 
 ---
 
