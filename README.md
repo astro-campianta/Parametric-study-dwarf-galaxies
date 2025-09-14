@@ -67,6 +67,7 @@ Thus, binaries represent a non-negligible systematic effect in interpreting the 
 
 If you use these codes in your research, please cite:
 
+```
 @article{Pianta2022,
   author = {Pianta, C. and Capuzzo-Dolcetta, R. and Carraro, G.},
   title = {The Impact of Binaries on the Dynamical Mass Estimate of Dwarf Galaxies},
@@ -76,9 +77,13 @@ If you use these codes in your research, please cite:
   year = {2022},
   doi = {10.3847/1538-4357/ac9303}
 }
+```
 
 ---
 
 ## License
 
 This project is released under the MIT License. See `LICENSE` for details.
+
+
+
