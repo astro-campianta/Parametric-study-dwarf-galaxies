@@ -22,12 +22,13 @@ The codes provided here implement parametric models of dSph and UFD galaxies, fo
 The repository includes Python scripts to:
 
 * generate parametric models of dwarf galaxies (Plummer sphere density distribution, stellar mass sampling from a Kroupa IMF);
-* build binary populations using the random pairing method;
+* build binary populations using the random pairing method, both with and without RLOF rejection;
 * compute the dynamical mass of model galaxies using velocity dispersion, including the contribution of unresolved binaries;
 * perform linear interpolation of the velocity dispersion to estimate the dynamical mass;
 * calculate the half-mass relaxation time;
-* evaluate the relative mass overestimation ΔM/M caused by binaries;
-* produce graphical outputs illustrating the effects of different binary fractions and orbital parameter distributions.
+* evaluate the relative mass overestimation (ΔM/M) caused by binaries;
+* estimate the mass-to-light ratio (M/L) in the U, V, and B photometric bands;
+* produce graphical outputs illustrating the effects of different binary fractions and orbital parameter distributions on the velocity dispersion and the dynamical mass.
 
 ---
 
@@ -47,7 +48,8 @@ The repository includes Python scripts to:
 
    * velocity dispersion as a function of binary parameters;
    * dynamical mass estimates with and without binary contamination;
-   * relative mass overestimation ΔM/M for different binary fractions;
+   * relative mass overestimation (ΔM/M) for different binary fractions;
+   * mass-to-light ratio (M/L) in U, V, and B bands.
 
 ---
 
@@ -56,7 +58,7 @@ The repository includes Python scripts to:
 These tools reproduce the methodology and results presented in Pianta et al. (2022), where we showed that:
 
 * the inflation of the observed velocity dispersion is most sensitive to the semimajor axis distribution of binaries;
-* even a small fraction of unresolved binaries can cause a significant overestimate of the dynamical mass in ultrafaint dwarf galaxies;
+* even a small fraction of unresolved binaries can cause a significant overestimate of the dynamical mass in ultra-faint dwarf galaxies;
 * this effect is less prominent, but still present, in classical dSph galaxies.
 
 Thus, binaries represent a non-negligible systematic effect in interpreting the kinematics of faint stellar systems.
