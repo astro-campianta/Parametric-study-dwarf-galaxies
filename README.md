@@ -21,8 +21,9 @@ The codes provided here implement parametric models of dSph and UFD galaxies, fo
 
 The repository includes Python scripts to:
 
-* generate parametric models of dwarf galaxies (Plummer sphere density distribution, stellar mass sampling from a Kroupa IMF);
+* generate parametric models of dwarf galaxies;
 * build binary populations using the random pairing method, both with and without RLOF rejection;
+* read and fit isochrones to extrapolate mass and luminosity values for MS and RGB stars;
 * compute the dynamical mass of model galaxies using velocity dispersion, including the contribution of unresolved binaries;
 * perform linear interpolation of the velocity dispersion to estimate the dynamical mass;
 * calculate the half-mass relaxation time;
